@@ -2,7 +2,7 @@
   "name": "esmload",
   "version": "0.0.0",
   "description": "Node.js ES6 loader to mock imports",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "node --experimental-modules --loader ./index.mjs test/index.mjs"
   },
