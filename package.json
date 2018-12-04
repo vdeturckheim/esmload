@@ -1,0 +1,24 @@
+{
+  "name": "esmload",
+  "version": "0.0.0",
+  "description": "Node.js ES6 loader to mock imports",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-modules --loader ./index.mjs test/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/esmload.git"
+  },
+  "keywords": [
+    "mock",
+    "es",
+    "modules"
+  ],
+  "author": "vdeturckheim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/esmload/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/esmload#readme"
+}
