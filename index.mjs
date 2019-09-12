@@ -5,7 +5,7 @@ const CURRENT_URL = import.meta.url;
 const builtins = Module.builtinModules;
 
 export async function resolve(specifier, parentModuleURL, defaultResolver) {
-    if (builtins.includes(specifier)) {
+    if (builtins.includes(specifier) || !parentModuleURL) {
         return defaultResolver(specifier, parentModuleURL);
     }
     if (parentModuleURL && parentModuleURL !== CURRENT_URL) {

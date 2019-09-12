@@ -1,6 +1,6 @@
 import * as Assert from 'assert';
 import { main, TEST_MOCK } from './lib1.mjs';
-import * as Lib2 from './lib2';
+import * as Lib2 from './lib2.mjs';
 
 
 Assert.equal(main(), 'hello World!');
